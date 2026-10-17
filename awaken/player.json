@@ -55,13 +55,6 @@
       "from": "0",
       "to": "1",
       "at": "2026-10-11T20:57:12.947Z"
-    },
-    {
-      "kind": "achievement",
-      "subject": "boss-slayer",
-      "from": "0",
-      "to": "1",
-      "at": "2026-10-09T21:39:09.928Z"
     }
   ],
   "achievements": [
@@ -194,6 +187,11 @@
   "quests": {
     "days": [
       {
+        "date": "2026-10-17",
+        "cleared": 0,
+        "total": 3
+      },
+      {
         "date": "2026-10-16",
         "cleared": 0,
         "total": 3
@@ -259,5 +257,5 @@
       "mp"
     ]
   },
-  "syncedAt": "2026-10-16T19:55:42.362Z"
+  "syncedAt": "2026-10-17T19:20:10.325Z"
 }
