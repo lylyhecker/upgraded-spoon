@@ -9,7 +9,7 @@
     "element": "Wind",
     "from": "HTML"
   },
-  "title": "Night Owl",
+  "title": "The Collector",
   "stats": [
     {
       "code": "STR",
@@ -77,8 +77,8 @@
     },
     {
       "id": "night-owl",
-      "tier": 2,
-      "value": 35
+      "tier": 1,
+      "value": 29
     },
     {
       "id": "early-bird",
@@ -179,6 +179,11 @@
   "quests": {
     "days": [
       {
+        "date": "2026-10-22",
+        "cleared": 0,
+        "total": 3
+      },
+      {
         "date": "2026-10-21",
         "cleared": 0,
         "total": 3
@@ -269,5 +274,5 @@
       "mp"
     ]
   },
-  "syncedAt": "2026-10-21T20:36:00.214Z"
+  "syncedAt": "2026-10-22T20:32:37.762Z"
 }
