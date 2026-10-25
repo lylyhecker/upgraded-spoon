@@ -2,20 +2,20 @@
   "login": "lylyhecker",
   "level": 5,
   "overall": "B",
-  "overallPercentile": 0.8588387883562824,
+  "overallPercentile": 0.8605288693411606,
   "layout": "bento_compact",
   "class": {
     "name": "Illusionist",
     "element": "Wind",
     "from": "HTML"
   },
-  "title": "The Collector",
+  "title": "Weekend Warrior",
   "stats": [
     {
       "code": "STR",
-      "value": 151,
+      "value": 160,
       "rank": "B",
-      "percentile": 0.7651105523316776
+      "percentile": 0.7763458854882952
     },
     {
       "code": "AGI",
@@ -50,6 +50,13 @@
   ],
   "events": [
     {
+      "kind": "achievement",
+      "subject": "weekend-warrior",
+      "from": "1",
+      "to": "2",
+      "at": "2026-10-25T19:34:43.935Z"
+    },
+    {
       "kind": "stat",
       "subject": "VIT",
       "from": "B",
@@ -83,7 +90,7 @@
     {
       "id": "relentless",
       "tier": 1,
-      "value": 151
+      "value": 160
     },
     {
       "id": "unbroken",
@@ -93,17 +100,17 @@
     {
       "id": "night-owl",
       "tier": 1,
-      "value": 25
+      "value": 27
     },
     {
       "id": "early-bird",
       "tier": 0,
-      "value": 3
+      "value": 2
     },
     {
       "id": "weekend-warrior",
-      "tier": 1,
-      "value": 20
+      "tier": 2,
+      "value": 33
     },
     {
       "id": "gate-opener",
@@ -158,12 +165,12 @@
     {
       "id": "diligent",
       "tier": 0,
-      "value": 9
+      "value": 8
     },
     {
       "id": "daily-grinder",
       "tier": 0,
-      "value": 1
+      "value": 2
     },
     {
       "id": "perfect-week",
@@ -173,7 +180,7 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 9
+      "value": 12
     },
     {
       "id": "boss-slayer",
@@ -188,11 +195,16 @@
     {
       "id": "collector",
       "tier": 1,
-      "value": 5
+      "value": 6
     }
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-10-25",
+        "cleared": 3,
+        "total": 3
+      },
       {
         "date": "2026-10-24",
         "cleared": 2,
@@ -284,10 +296,10 @@
         "total": 3
       }
     ],
-    "perfectDays": 1,
-    "run": 0,
+    "perfectDays": 2,
+    "run": 1,
     "bestRun": 1,
-    "questsDone": 9,
+    "questsDone": 12,
     "bosses": [
       "2026-10-05"
     ],
@@ -297,8 +309,9 @@
       "two-repos",
       "average",
       "mp",
-      "three"
+      "three",
+      "weekend"
     ]
   },
-  "syncedAt": "2026-10-24T19:28:03.250Z"
+  "syncedAt": "2026-10-25T19:34:43.935Z"
 }
