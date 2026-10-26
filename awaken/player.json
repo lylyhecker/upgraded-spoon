@@ -2,7 +2,7 @@
   "login": "lylyhecker",
   "level": 5,
   "overall": "B",
-  "overallPercentile": 0.8605288693411606,
+  "overallPercentile": 0.8569545390569087,
   "layout": "bento_compact",
   "class": {
     "name": "Illusionist",
@@ -13,9 +13,9 @@
   "stats": [
     {
       "code": "STR",
-      "value": 160,
+      "value": 162,
       "rank": "B",
-      "percentile": 0.7763458854882952
+      "percentile": 0.7787177392927809
     },
     {
       "code": "AGI",
@@ -31,9 +31,9 @@
     },
     {
       "code": "VIT",
-      "value": 8,
-      "rank": "A",
-      "percentile": 0.8870569955105061
+      "value": 7,
+      "rank": "B",
+      "percentile": 0.8495905783669857
     },
     {
       "code": "LUK",
@@ -49,6 +49,13 @@
     }
   ],
   "events": [
+    {
+      "kind": "stat",
+      "subject": "VIT",
+      "from": "A",
+      "to": "B",
+      "at": "2026-10-26T21:37:33.200Z"
+    },
     {
       "kind": "achievement",
       "subject": "weekend-warrior",
@@ -90,12 +97,12 @@
     {
       "id": "relentless",
       "tier": 1,
-      "value": 160
+      "value": 162
     },
     {
       "id": "unbroken",
       "tier": 0,
-      "value": 2
+      "value": 3
     },
     {
       "id": "night-owl",
@@ -110,7 +117,7 @@
     {
       "id": "weekend-warrior",
       "tier": 2,
-      "value": 33
+      "value": 32
     },
     {
       "id": "gate-opener",
@@ -165,7 +172,7 @@
     {
       "id": "diligent",
       "tier": 0,
-      "value": 8
+      "value": 9
     },
     {
       "id": "daily-grinder",
@@ -180,7 +187,7 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 12
+      "value": 13
     },
     {
       "id": "boss-slayer",
@@ -200,6 +207,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-10-26",
+        "cleared": 1,
+        "total": 3
+      },
       {
         "date": "2026-10-25",
         "cleared": 3,
@@ -297,9 +309,9 @@
       }
     ],
     "perfectDays": 2,
-    "run": 1,
+    "run": 0,
     "bestRun": 1,
-    "questsDone": 12,
+    "questsDone": 13,
     "bosses": [
       "2026-10-05"
     ],
@@ -313,5 +325,5 @@
       "weekend"
     ]
   },
-  "syncedAt": "2026-10-25T19:34:43.935Z"
+  "syncedAt": "2026-10-26T21:37:33.200Z"
 }
