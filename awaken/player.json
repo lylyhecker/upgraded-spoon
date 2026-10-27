@@ -9,7 +9,7 @@
     "element": "Wind",
     "from": "HTML"
   },
-  "title": "Weekend Warrior",
+  "title": "The Collector",
   "stats": [
     {
       "code": "STR",
@@ -49,6 +49,13 @@
     }
   ],
   "events": [
+    {
+      "kind": "achievement",
+      "subject": "collector",
+      "from": "1",
+      "to": "2",
+      "at": "2026-10-27T21:17:05.045Z"
+    },
     {
       "kind": "stat",
       "subject": "VIT",
@@ -187,7 +194,7 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 13
+      "value": 15
     },
     {
       "id": "boss-slayer",
@@ -201,12 +208,17 @@
     },
     {
       "id": "collector",
-      "tier": 1,
-      "value": 6
+      "tier": 2,
+      "value": 7
     }
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-10-27",
+        "cleared": 2,
+        "total": 3
+      },
       {
         "date": "2026-10-26",
         "cleared": 1,
@@ -311,7 +323,7 @@
     "perfectDays": 2,
     "run": 0,
     "bestRun": 1,
-    "questsDone": 13,
+    "questsDone": 15,
     "bosses": [
       "2026-10-05"
     ],
@@ -322,8 +334,9 @@
       "average",
       "mp",
       "three",
-      "weekend"
+      "weekend",
+      "streak"
     ]
   },
-  "syncedAt": "2026-10-26T21:37:33.200Z"
+  "syncedAt": "2026-10-27T21:17:05.045Z"
 }
