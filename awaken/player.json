@@ -69,20 +69,6 @@
       "from": "1",
       "to": "2",
       "at": "2026-10-25T19:34:43.935Z"
-    },
-    {
-      "kind": "stat",
-      "subject": "VIT",
-      "from": "B",
-      "to": "A",
-      "at": "2026-10-24T19:28:03.250Z"
-    },
-    {
-      "kind": "achievement",
-      "subject": "weekend-warrior",
-      "from": "0",
-      "to": "1",
-      "at": "2026-10-24T19:28:03.250Z"
     }
   ],
   "achievements": [
@@ -194,7 +180,7 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 16
+      "value": 17
     },
     {
       "id": "boss-slayer",
@@ -214,6 +200,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-10-31",
+        "cleared": 1,
+        "total": 3
+      },
       {
         "date": "2026-10-30",
         "cleared": 1,
@@ -338,7 +329,7 @@
     "perfectDays": 2,
     "run": 0,
     "bestRun": 1,
-    "questsDone": 16,
+    "questsDone": 17,
     "bosses": [
       "2026-10-05"
     ],
@@ -353,5 +344,5 @@
       "streak"
     ]
   },
-  "syncedAt": "2026-10-30T21:27:58.663Z"
+  "syncedAt": "2026-10-31T20:26:38.387Z"
 }
