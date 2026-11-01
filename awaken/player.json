@@ -2,7 +2,7 @@
   "login": "lylyhecker",
   "level": 5,
   "overall": "B",
-  "overallPercentile": 0.8569545390569087,
+  "overallPercentile": 0.8578055208556823,
   "layout": "bento_compact",
   "class": {
     "name": "Illusionist",
@@ -13,9 +13,9 @@
   "stats": [
     {
       "code": "STR",
-      "value": 162,
+      "value": 167,
       "rank": "B",
-      "percentile": 0.7787177392927809
+      "percentile": 0.7844626409334404
     },
     {
       "code": "AGI",
@@ -51,6 +51,13 @@
   "events": [
     {
       "kind": "achievement",
+      "subject": "escape-artist",
+      "from": "0",
+      "to": "1",
+      "at": "2026-11-01T21:10:09.435Z"
+    },
+    {
+      "kind": "achievement",
       "subject": "collector",
       "from": "1",
       "to": "2",
@@ -62,13 +69,6 @@
       "from": "A",
       "to": "B",
       "at": "2026-10-26T21:37:33.200Z"
-    },
-    {
-      "kind": "achievement",
-      "subject": "weekend-warrior",
-      "from": "1",
-      "to": "2",
-      "at": "2026-10-25T19:34:43.935Z"
     }
   ],
   "achievements": [
@@ -90,7 +90,7 @@
     {
       "id": "relentless",
       "tier": 1,
-      "value": 162
+      "value": 167
     },
     {
       "id": "unbroken",
@@ -100,7 +100,7 @@
     {
       "id": "night-owl",
       "tier": 1,
-      "value": 27
+      "value": 25
     },
     {
       "id": "early-bird",
@@ -110,7 +110,7 @@
     {
       "id": "weekend-warrior",
       "tier": 2,
-      "value": 32
+      "value": 38
     },
     {
       "id": "gate-opener",
@@ -165,7 +165,7 @@
     {
       "id": "diligent",
       "tier": 0,
-      "value": 9
+      "value": 10
     },
     {
       "id": "daily-grinder",
@@ -180,7 +180,7 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 17
+      "value": 19
     },
     {
       "id": "boss-slayer",
@@ -189,8 +189,8 @@
     },
     {
       "id": "escape-artist",
-      "tier": 0,
-      "value": 2
+      "tier": 1,
+      "value": 3
     },
     {
       "id": "collector",
@@ -200,6 +200,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-11-01",
+        "cleared": 2,
+        "total": 3
+      },
       {
         "date": "2026-10-31",
         "cleared": 1,
@@ -329,11 +334,11 @@
     "perfectDays": 2,
     "run": 0,
     "bestRun": 1,
-    "questsDone": 17,
+    "questsDone": 19,
     "bosses": [
       "2026-10-05"
     ],
-    "escapes": 2,
+    "escapes": 3,
     "kinds": [
       "contribute",
       "two-repos",
@@ -344,5 +349,5 @@
       "streak"
     ]
   },
-  "syncedAt": "2026-10-31T20:26:38.387Z"
+  "syncedAt": "2026-11-01T21:10:09.435Z"
 }
