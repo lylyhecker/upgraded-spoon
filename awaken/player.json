@@ -2,7 +2,7 @@
   "login": "lylyhecker",
   "level": 5,
   "overall": "B",
-  "overallPercentile": 0.8578055208556823,
+  "overallPercentile": 0.8581389213754008,
   "layout": "bento_compact",
   "class": {
     "name": "Illusionist",
@@ -13,9 +13,9 @@
   "stats": [
     {
       "code": "STR",
-      "value": 167,
+      "value": 169,
       "rank": "B",
-      "percentile": 0.7844626409334404
+      "percentile": 0.7866895988942911
     },
     {
       "code": "AGI",
@@ -55,13 +55,6 @@
       "from": "0",
       "to": "1",
       "at": "2026-11-01T21:10:09.435Z"
-    },
-    {
-      "kind": "achievement",
-      "subject": "collector",
-      "from": "1",
-      "to": "2",
-      "at": "2026-10-27T21:17:05.045Z"
     }
   ],
   "achievements": [
@@ -83,7 +76,7 @@
     {
       "id": "relentless",
       "tier": 1,
-      "value": 167
+      "value": 169
     },
     {
       "id": "unbroken",
@@ -93,7 +86,7 @@
     {
       "id": "night-owl",
       "tier": 1,
-      "value": 25
+      "value": 28
     },
     {
       "id": "early-bird",
@@ -103,7 +96,7 @@
     {
       "id": "weekend-warrior",
       "tier": 2,
-      "value": 38
+      "value": 37
     },
     {
       "id": "gate-opener",
@@ -158,7 +151,7 @@
     {
       "id": "diligent",
       "tier": 0,
-      "value": 10
+      "value": 11
     },
     {
       "id": "daily-grinder",
@@ -173,7 +166,7 @@
     {
       "id": "quest-hunter",
       "tier": 0,
-      "value": 21
+      "value": 23
     },
     {
       "id": "boss-slayer",
@@ -193,6 +186,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-11-03",
+        "cleared": 2,
+        "total": 3
+      },
       {
         "date": "2026-11-02",
         "cleared": 2,
@@ -332,7 +330,7 @@
     "perfectDays": 2,
     "run": 0,
     "bestRun": 1,
-    "questsDone": 21,
+    "questsDone": 23,
     "bosses": [
       "2026-10-05"
     ],
@@ -347,5 +345,5 @@
       "streak"
     ]
   },
-  "syncedAt": "2026-11-02T23:51:44.942Z"
+  "syncedAt": "2026-11-03T22:16:39.038Z"
 }
