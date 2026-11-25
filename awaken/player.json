@@ -48,7 +48,15 @@
       "percentile": 0.7154979269401185
     }
   ],
-  "events": [],
+  "events": [
+    {
+      "kind": "achievement",
+      "subject": "veteran",
+      "from": "1",
+      "to": "2",
+      "at": "2026-11-25T01:23:48.939Z"
+    }
+  ],
   "achievements": [
     {
       "id": "pull-shark",
@@ -132,8 +140,8 @@
     },
     {
       "id": "veteran",
-      "tier": 1,
-      "value": 2
+      "tier": 2,
+      "value": 3
     },
     {
       "id": "berserker",
@@ -178,6 +186,11 @@
   ],
   "quests": {
     "days": [
+      {
+        "date": "2026-11-24",
+        "cleared": 0,
+        "total": 3
+      },
       {
         "date": "2026-11-23",
         "cleared": 0,
@@ -437,5 +450,5 @@
       "streak"
     ]
   },
-  "syncedAt": "2026-11-24T03:18:16.036Z"
+  "syncedAt": "2026-11-25T01:23:48.939Z"
 }
